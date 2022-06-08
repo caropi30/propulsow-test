@@ -16,21 +16,19 @@
 
     &--btns {
       color: $regular-white;
-      position: absolute;
-      top: 120%;
+      //position: absolute;
+      top: 80%;
       left: 45%;
     }
   }
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
-}
 
-@media (min-width: 768px) and (max-width: 991.98px) {
-}
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
-}
+@media (min-width: 576px) and (max-width: 767.98px) {}
 
-@media (min-width: 1200px) {
-}
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 1200px) {}

@@ -1,0 +1,142 @@
+@import "../../scss/base/reset.scss";
+@import "../../scss/utilities/mixins.scss";
+@import "../../scss/utilities/variables.scss";
+
+@media (min-width: 200px) and (max-width: 575.98px) {
+  .card {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 310px;
+    margin: auto;
+    padding: 1rem;
+
+    &-top {
+      &--img {
+        img {
+          width: 100%;
+          object-fit: contain;
+        }
+      }
+
+      &--triangle {
+        &-condition {
+          width: 0;
+          height: 0;
+          border-top: 100px solid $secondary-purple;
+          border-right: 130px solid transparent;
+          position: absolute;
+        }
+        p {
+          color: $regular-white;
+          font-weight: $bold;
+          font-size: $medium-font;
+          position: absolute;
+          top: 5%;
+          left: 10%;
+        }
+      }
+      &--circle {
+        &-discount {
+          width: 50px;
+          height: 50px;
+          background: $promo-red;
+          border-radius: 50%;
+          position: absolute;
+          top: 6%;
+          left: 78%;
+        }
+        p {
+          color: $regular-white;
+          position: absolute;
+          top: 8.9%;
+          left: 82%;
+        }
+      }
+    }
+
+    &-bottom {
+      background-color: $card-gray;
+      padding: 1.2rem;
+
+      &--name {
+        color: $dark-gray;
+        font-size: $regular-font;
+        font-weight: $regular;
+      }
+
+      &--prices {
+        font-size: $regular-plus-font;
+        font-weight: $regular;
+        display: flex;
+        margin: 0.5rem 0 0 0;
+
+        &-list {
+          color: $medium-gray;
+          text-decoration: line-through;
+          margin-right: 0.5rem;
+        }
+
+        &-promo {
+          color: $main-purple;
+        }
+      }
+    }
+
+    button {
+      width: 100%;
+      margin: 1rem 0 0 0;
+      border: none;
+      border-radius: 5px;
+      color: $regular-white;
+      background-color: $main-purple;
+      padding: 0.7rem;
+    }
+  }
+  .item-card-2,.item-card-3, .item-card-4 {
+      display: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .card {
+    position: relative;
+    outline: solid;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+
+    &-bottom {
+      background-color: $card-gray;
+      padding: 2rem;
+
+      &--name {
+        color: $dark-gray;
+        font-size: $regular-font;
+        font-weight: $regular;
+      }
+
+      &--prices {
+        font-size: $regular-plus-font;
+        font-weight: $regular;
+
+        &-list {
+          color: $medium-gray;
+          text-decoration: line-through;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) {
+}
