@@ -18,17 +18,17 @@ const Navbar = () => {
           <div className="navbar-left--btn">
             <div>
               <button className="btn-search">
-                <FiSearch size={30} />
+                <FiSearch size={27} />
               </button>
               <button className="btn-shop">
-                <IoBagOutline size={30} />
+                <IoBagOutline size={27} />
               </button>
             </div>
             <button
               className="btn-responsive"
               onClick={() => setIsMobile(!isMobile)}
             >
-              {isMobile ? <BiMenu size={30} /> : <VscClose size={30} />}
+              {isMobile ? <BiMenu size={27} /> : <VscClose size={27} />}
             </button>
           </div>
           <ul

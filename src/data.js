@@ -43,3 +43,22 @@ export const imageSlider = [
     image: "../../img/slider.png",
   },
 ];
+
+export const specialists = [
+  {
+    id: 1,
+    image: "../../img/especialistas-4.png",
+  },
+  {
+    id: 2,
+    image: "../../img/especialistas-1.png",
+  },
+  {
+    id: 3,
+    image: "../../img/especialistas-3.png",
+  },
+  {
+    id: 4,
+    image: "../../img/especialistas-2.png",
+  },
+];
