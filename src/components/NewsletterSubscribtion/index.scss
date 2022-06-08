@@ -63,7 +63,7 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
   .newsletter-subscription {
     background-color: $light-gray;
-    padding: 2rem 3rem;
+    padding: 2rem 2rem;
     color: $regular-gray;
 
     &--txt {
@@ -120,12 +120,10 @@
 @media (min-width: 768px) and (max-width: 1199.98px) {
   .newsletter-subscription {
     background-color: $light-gray;
-    padding: 2rem 2.5rem;
+    padding: 2rem 5rem;
     color: $regular-gray;
     display: grid;
     grid-template-columns: 50% 50%;
-    justify-items: center;
-    max-width: 1200px;
 
     &--txt {
       &-title {
@@ -184,7 +182,7 @@
 @media (min-width: 1200px) {
   .newsletter-subscription {
     background-color: $light-gray;
-    padding: 4rem 4rem;
+    padding: 4rem 5rem;
     color: $regular-gray;
     display: grid;
     grid-template-columns: 50% 50%;

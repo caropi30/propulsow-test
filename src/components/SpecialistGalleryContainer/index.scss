@@ -165,7 +165,7 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .specialist-gallery {
     margin: 2rem 0;
-    padding: 3rem;
+    padding: 2rem 5rem;
 
     &--title {
       h2 {
@@ -224,7 +224,7 @@
 @media (min-width: 1200px) {
   .specialist-gallery {
     margin: 2rem 0;
-    padding: 3rem;
+    padding: 2rem 5rem;
 
     &--title {
       h2 {
@@ -247,8 +247,7 @@
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: 70% 30%;
       grid-gap: 10px;
-      max-width: 1300px;
-      margin: auto;
+
 
       img {
         width: 100%;
@@ -274,7 +273,7 @@
       .item-4 {
         grid-column: 3/6;
         grid-row: 1/4;
-        height: 98%;
+        height: 98.7%;
       }
     }
   }
