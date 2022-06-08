@@ -8,7 +8,7 @@ const ProductCard = (product) => {
   return (
     <>
       <div className="card container">
-        <div>
+        <div className={"item-" + id}>
           <div className="card-condition">{condition}</div>
           <div className="card-discount">{discount}</div>
           <figure className="card-img">
@@ -18,8 +18,8 @@ const ProductCard = (product) => {
         <div>
           <h3 className="card-name">{name}</h3>
           <div className="card-prices">
-            <p className="card-prices--list"></p>
-            <p className="card-prices--promo"></p>
+            <p className="card-prices--list">{promoPrice}</p>
+            <p className="card-prices--promo">{listPrice}</p>
           </div>
           <button type="button">
             <CgShoppingCart />
