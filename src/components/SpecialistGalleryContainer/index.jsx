@@ -6,7 +6,7 @@ const SpecialistGalleryContainer = () => {
   return (
     <>
       <section className="specialist">
-        <div className="specilist-gallery">
+        <div className="specialist-gallery">
           <div className="specialist-gallery--title">
             <h2>
               PROFESIONALES <span>ESPECIALISTAS</span>
