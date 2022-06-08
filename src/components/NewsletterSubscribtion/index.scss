@@ -186,6 +186,7 @@
     color: $regular-gray;
     display: grid;
     grid-template-columns: 50% 50%;
+    max-width: 1440px;
 
     &--txt {
       width: 100%;
