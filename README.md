@@ -8,9 +8,11 @@
 
 Prueba Front-End maquetada en React Js.
 
+_Validar deploy en: https://ppw-test.vercel.app/_
+
 ## Demo
 
-> ![alt text](public/img/readme/navegacion.gif "Navegación y Responsive")
+> ![alt text](public/img/readme/inicio.gif "Home")
 
 ---
 
@@ -22,7 +24,9 @@ Esta Home muestra las secciones a diagramar según indicado en sus tamaños Desk
 
 _Index_
 
-> ![picture alt](public/img/readme/inicio-1.png "Pantalla inicio") > ![picture alt](public/img/readme/inicio-2.png "Pantalla inicio") > ![picture alt](public/img/readme/inicio-3.png "Pantalla inicio")
+> ![picture alt](public/img/readme/inicio-1.png "Pantalla inicio")
+> ![picture alt](public/img/readme/inicio-2.png "Pantalla inicio")
+> ![picture alt](public/img/readme/inicio-3.png "Pantalla inicio")
 
 ---
 
