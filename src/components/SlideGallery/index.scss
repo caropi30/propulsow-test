@@ -2,33 +2,74 @@
 @import "../../scss/utilities/mixins.scss";
 @import "../../scss/utilities/variables.scss";
 
+
 @media (min-width: 200px) and (max-width: 575.98px) {
   .slide-gallery {
-    &--img {
-      @include w-100;
-      position: relative;
-
-      img {
-        object-fit: cover;
-        height: 300px;
+      &--carousel{
+        @include w-100;
+        height: 100%;
+  
+        .slide {
+          img {
+              object-fit: cover;
+              height: 350px;
+            }
+        }
       }
-    }
-
-    &--btns {
-      color: $regular-white;
-      //position: absolute;
-      top: 80%;
-      left: 45%;
-    }
   }
 }
 
 
 
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .slide-gallery {
+    margin-bottom: 2rem;
+      &--carousel {
+        @include w-100;
+        height: 100%;
+  
+        .slide {
+          img {
+            object-fit: cover;
+            height: 350px;
+          }
+        }
+      }
+    }
+}
 
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .slide-gallery {
+    margin-bottom: 2rem;
+      &--carousel {
+        @include w-100;
+        height: 100%;
+  
+        .slide {
+          img {
+            object-fit: cover;
+            height: 300px;
+          }
+        }
+      }
+    }
+}
 
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .slide-gallery {
+    margin-bottom: 2rem;
+      &--carousel {
+        @include w-100;
+        height: 100%;
+  
+        .slide {
+          img {
+            object-fit: cover;
+            height: 400px;
+          }
+        }
+      }
+    }
+}
 
 @media (min-width: 1200px) {}
