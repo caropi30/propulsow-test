@@ -119,197 +119,196 @@
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .newsletter {
-      &-subscription {
-        background-color: $light-gray;
-        padding: 2rem 3rem;
-        color: $regular-gray;
-        display: grid;
-        grid-template-columns: 50% 50%;
-  
-        &--txt {
-          &-title {
-            font-family: $roboto;
-            font-size: $medium-font;
-            font-weight: $regular;
+    &-subscription {
+      background-color: $light-gray;
+      padding: 2rem 3rem;
+      color: $regular-gray;
+      display: grid;
+      grid-template-columns: 50% 50%;
+
+      &--txt {
+        &-title {
+          font-family: $roboto;
+          font-size: $medium-font;
+          font-weight: $regular;
+        }
+
+        &-paragraph {
+          font-size: $small-font;
+          font-weight: $light;
+          margin: 1rem 0;
+        }
+      }
+
+      &--form {
+        display: flex;
+        align-items: baseline;
+        padding: 1rem 0;
+        width: 100%;
+
+        &-email {
+          width: 100%;
+
+          input {
+            color: $regular-gray;
+            border: none;
+            padding: 0.7rem;
+            width: 100%;
           }
-  
-          &-paragraph {
-            font-size: $small-font;
-            font-weight: $light;
-            margin: 1rem 0;
+
+          input:focus {
+            outline: none;
+          }
+
+          input::placeholder {
+            font-weight: $thin;
+            font-size: $regular-font;
           }
         }
-  
-        &--form {
-          display: flex;
-          align-items: baseline;
-          padding: 1rem 0;
-          width: 100%;
-  
-          &-email {
-            width: 100%;
-  
-            input {
-              color: $regular-gray;
-              border: none;
-              padding: 0.7rem;
-              width: 100%;
-            }
-  
-            input:focus {
-              outline: none;
-            }
-  
-            input::placeholder {
-              font-weight: $thin;
-              font-size: $regular-font;
-            }
-          }
-  
-          &-subscribe {
-            border: none;
-            border-radius: 25px;
-            background-color: $main-purple;
-            color: $regular-white;
-            padding: 0.7rem 1rem;
-            font-size: $regular-font;
-            font-weight: $medium;
-            margin-left: 1rem;
-          }
+
+        &-subscribe {
+          border: none;
+          border-radius: 25px;
+          background-color: $main-purple;
+          color: $regular-white;
+          padding: 0.7rem 1rem;
+          font-size: $regular-font;
+          font-weight: $medium;
+          margin-left: 1rem;
         }
       }
     }
+  }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  .newsletter{
+  .newsletter {
     &-subscription {
-        background-color: $light-gray;
-        padding: 2rem 5rem;
-        color: $regular-gray;
-        display: grid;
-        grid-template-columns: 50% 50%;
-    
-        &--txt {
-          &-title {
-            font-family: $roboto;
-            font-size: $medium-font;
-            font-weight: $regular;
-          }
-    
-          &-paragraph {
-            font-size: $small-font;
-            font-weight: $light;
-            margin: 1rem 0;
-          }
+      background-color: $light-gray;
+      padding: 2rem 5rem;
+      color: $regular-gray;
+      display: grid;
+      grid-template-columns: 50% 50%;
+
+      &--txt {
+        &-title {
+          font-family: $roboto;
+          font-size: $medium-font;
+          font-weight: $regular;
         }
-    
-        &--form {
-          display: flex;
-          align-items: baseline;
-          padding: 1rem 0;
-          width: 100%;
-    
-          &-email {
-            width: 100%;
-    
-            input {
-              color: $regular-gray;
-              border: none;
-              padding: 0.7rem;
-              width: 100%;
-            }
-    
-            input:focus {
-              outline: none;
-            }
-    
-            input::placeholder {
-              font-weight: $thin;
-              font-size: $regular-font;
-            }
-          }
-    
-          &-subscribe {
-            border: none;
-            border-radius: 25px;
-            background-color: $main-purple;
-            color: $regular-white;
-            padding: 0.7rem 1rem;
-            font-size: $regular-font;
-            font-weight: $medium;
-            margin-left: 1rem;
-          }
+
+        &-paragraph {
+          font-size: $small-font;
+          font-weight: $light;
+          margin: 1rem 0;
         }
       }
+
+      &--form {
+        display: flex;
+        align-items: baseline;
+        padding: 1rem 0;
+        width: 100%;
+
+        &-email {
+          width: 100%;
+
+          input {
+            color: $regular-gray;
+            border: none;
+            padding: 0.7rem;
+            width: 100%;
+          }
+
+          input:focus {
+            outline: none;
+          }
+
+          input::placeholder {
+            font-weight: $thin;
+            font-size: $regular-font;
+          }
+        }
+
+        &-subscribe {
+          border: none;
+          border-radius: 25px;
+          background-color: $main-purple;
+          color: $regular-white;
+          padding: 0.7rem 1rem;
+          font-size: $regular-font;
+          font-weight: $medium;
+          margin-left: 1rem;
+        }
+      }
+    }
   }
 }
 
 @media (min-width: 1200px) {
-  .newsletter{
-      background-color: $light-gray;
+  .newsletter {
+    background-color: $light-gray;
     &-subscription {
-      
-        padding: 4rem 2rem;
-        color: $regular-gray;
-        display: grid;
-        grid-template-columns: 50% 50%;
-        max-width: 1440px;
-        margin: auto;
-        background-color: $light-gray;
-    
-        &--txt {
-          width: 100%;
-    
-          &-title {
-            font-family: $roboto;
-            font-size: $medium-font;
-            font-weight: $regular;
-          }
-    
-          &-paragraph {
-            font-size: $small-font;
-            font-weight: $light;
-            margin: 1rem 0;
-          }
+      padding: 4rem 4rem;
+      color: $regular-gray;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      max-width: 1440px;
+      margin: auto;
+      background-color: $light-gray;
+
+      &--txt {
+        width: 100%;
+
+        &-title {
+          font-family: $roboto;
+          font-size: $medium-font;
+          font-weight: $regular;
         }
-    
-        &--form {
-          display: grid;
-          grid-template-columns: 70% 30%;
-          align-items: baseline;
-          padding: 1rem 0;
-    
-          &-email {
-            width: 100%;
-    
-            input {
-              color: $regular-gray;
-              border: none;
-              width: 100%;
-              padding: 0.7rem;
-            }
-    
-            input:focus {
-              outline: none;
-            }
-    
-            input::placeholder {
-              font-weight: $thin;
-              font-size: $regular-font;
-            }
-          }
-    
-          &-subscribe {
-            border: none;
-            border-radius: 25px;
-            background-color: $main-purple;
-            color: $regular-white;
-            padding: 0.7rem 1rem;
-            font-size: $regular-font;
-            font-weight: $medium;
-            margin-left: 1rem;
-          }
+
+        &-paragraph {
+          font-size: $small-font;
+          font-weight: $light;
+          margin: 1rem 0;
         }
       }
+
+      &--form {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        align-items: baseline;
+        padding: 1rem 0;
+
+        &-email {
+          width: 100%;
+
+          input {
+            color: $regular-gray;
+            border: none;
+            width: 100%;
+            padding: 0.7rem;
+          }
+
+          input:focus {
+            outline: none;
+          }
+
+          input::placeholder {
+            font-weight: $thin;
+            font-size: $regular-font;
+          }
+        }
+
+        &-subscribe {
+          border: none;
+          border-radius: 25px;
+          background-color: $main-purple;
+          color: $regular-white;
+          padding: 0.7rem 1rem;
+          font-size: $regular-font;
+          font-weight: $medium;
+          margin-left: 1rem;
+        }
+      }
+    }
   }
 }
