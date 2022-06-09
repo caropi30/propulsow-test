@@ -1,6 +1,6 @@
 <p align="center">
   <p align="center">    
-    <img src="public/img/logo.png" alt="PropulsoW Logo" height="250">    
+    <img src="public/img/logo.png" alt="PropulsoW Logo" width="200">    
   </p>
 </p>
 
@@ -22,9 +22,7 @@ Esta Home muestra las secciones a diagramar según indicado en sus tamaños Desk
 
 _Index_
 
-> ![picture alt](public/img/readme/inicio-1.png "Pantalla inicio")
-> ![picture alt](public/img/readme/inicio-2.png "Pantalla inicio")
-> ![picture alt](public/img/readme/inicio-3.png "Pantalla inicio")
+> ![picture alt](public/img/readme/inicio-1.png "Pantalla inicio") > ![picture alt](public/img/readme/inicio-2.png "Pantalla inicio") > ![picture alt](public/img/readme/inicio-3.png "Pantalla inicio")
 
 ---
 
