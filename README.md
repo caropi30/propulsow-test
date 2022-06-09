@@ -18,15 +18,13 @@ _Validar deploy en: https://ppw-test.vercel.app/_
 
 ## Funcionalidad del proyecto
 
-Esta Home muestra las secciones a diagramar según indicado en sus tamaños Desktop y Mobile (se agrega certa diagramación extra para transición entre tamaños).
+Este Home muestra las secciones a diagramar según indicado en sus tamaños Desktop y Mobile (se agrega certa diagramación extra para transición entre tamaños).
 
 ---
 
 _Index_
 
-> ![picture alt](public/img/readme/inicio-1.png "Pantalla inicio")
-> ![picture alt](public/img/readme/inicio-2.png "Pantalla inicio")
-> ![picture alt](public/img/readme/inicio-3.png "Pantalla inicio")
+> ![picture alt](public/img/readme/inicio-1.png "Pantalla inicio") > ![picture alt](public/img/readme/inicio-2.png "Pantalla inicio") > ![picture alt](public/img/readme/inicio-3.png "Pantalla inicio")
 
 ---
 
